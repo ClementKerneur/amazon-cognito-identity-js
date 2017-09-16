@@ -18,6 +18,7 @@
 var CognitoIdentityServiceProvider = require('aws-sdk/clients/cognitoidentityserviceprovider');
 
 var CognitoUser = require('./CognitoUser');
+var LocalStorage = require('node-localstorage').LocalStorage;
 
 /** @class */
 module.exports = class CognitoUserPool {
